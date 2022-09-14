@@ -1,0 +1,27 @@
+{
+  "name": "reversion-cause",
+  "version": "1.0.0",
+  "description": "identify why a set of transactions reverted",
+  "main": "whyR.js",
+  "types": "index.d.ts",
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "jjmr007",
+  "license": "MIT",
+  "bin": {
+    "getRevertReason": "cli.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "ethers": "^4.0.46",
+    "sqlite3": "^5.0.11",
+    "ws": "^8.8.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "jest": "^25.4.0",
+    "mocha": "^7.1.1"
+  }
+}

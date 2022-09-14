@@ -1,0 +1,32 @@
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# Node #
+#####################
+node_modules
+
+# Folders to ignore #
+#####################
+.hg
+.svn
+.CVS
+intermediate
+publish
+.idea
+.graphics
+_test
+_archive
+uploads
+tmp
+/coverage
+.nyc_output/
+_*
+
+# Files to ignore #
+#####################
+package-lock.json
+.vscode
+.env
